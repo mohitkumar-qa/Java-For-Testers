@@ -4,24 +4,17 @@ public class Practice {
 
 	public static void main(String[] args) {
 		
+		// Reverse a string 
+		String orignal = "Mohit";
+		System.out.println(orignal);
+
+		for(int i=orignal.length()-1;i>=0;i--){
+			System.out.print(orignal.charAt(i));
+		}
 		
-		for(int i=1;i<=5;i++){     // Row
-			for(int j=1;j<=i;j++){ // Column
-				System.out.print("*");
-				}
-				System.out.println("");
-			}
 		
+
 		
 		
 		}
-	
-	
-	
-	
-	
-	
-	
-
-	
 }
